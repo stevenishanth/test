@@ -63,8 +63,8 @@
 
 	<repositories>
 		<repository>
-			<id>saucelabs-repository</id>
-			<url>https://repository-saucelabs.forge.cloudbees.com/release</url>
+			<id>nexus-repository</id>
+			<url>http://localhost:8081/repository/test1/</url>
 			<releases>
 				<enabled>true</enabled>
 			</releases>
